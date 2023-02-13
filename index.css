@@ -1,0 +1,42 @@
+.logo {
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    margin-right: 20px;
+  }
+
+  .logo:last-child {
+    margin-right: 0;
+  }
+
+  .logo:first-child {
+    margin-right:20px;
+  }
+  #gen{
+    height: 100px;
+    width: 250px;
+    margin-right:200px;
+  }
+  button{
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  .dropdown select {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
