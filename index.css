@@ -1,8 +1,20 @@
+body{
+  height: 100vh;
+  width: 100vw;
+}
 .logo {
     display: inline-block;
     height: 20px;
     width: 30px;
     margin-right: 20px;
+  }
+  #ig{
+    height: 20px;
+    width: 40px;
+  }
+  #n{
+    height: 20px;
+    width: 10px;
   }
 
   .logo:last-child {
@@ -12,15 +24,17 @@
   .logo:first-child {
     margin-right:20px;
   }
+ 
   #gen{
-    height: 100px;
-    width: 250px;
-    margin-right:200px;
+    height: 60px;
+    width: 200px;
+    margin-right:250px;
   }
   button{
     background-color: navy;
     color: white;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: none;
   }
   .dropdown {
     position: relative;
@@ -40,3 +54,90 @@
     -moz-appearance: none;
     appearance: none;
   }
+  .carousel-inner {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    color: white;
+  }
+  .carousel-slide{
+    width: 100vw;
+  }
+  .carousel-caption p{
+    height: 200px;
+    color: white;
+    margin-top: -20px;
+  }
+ 
+  /* .carousel-indicators-container {
+    position: relative;
+  } */
+  .carousel-indicators {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   margin-bottom: 400px;
+    flex-direction: column;
+ 
+  
+  }
+  #myCarousel-indicators > li {
+    border-radius: 50%;
+  }
+   .carousel-indicator  {
+    display: inline-block;
+    width: 5px;
+    height: 50px;
+    margin: 15px;
+     border-radius: 100%;
+    background-color: white;
+    transition: background-color 0.3s ease;
+
+  } 
+
+  .carousel-indicator.active {
+    background-color: white;
+  }
+
+  /* .carousel-indicators label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .carousel-indicators .active {
+    background: #007bff;
+  }
+ .carousel-control-next-icon, .carousel-control-prev-icon {
+  display: grid;
+    grid-template-rows: 1fr 1fr;
+} */
+.G2{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, blue 50%, lightgreen 50%);
+     font-weight: bolder;
+  font-size:70px;
+     
+  }
+.H{
+  font-size:70px;
+}
+p {
+  font-size: 30px;
+}
+.book{
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  margin-bottom: 250px;
+  font-size: 30px;
+  border: none;
+}
+  
+  
+  
