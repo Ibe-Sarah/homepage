@@ -77,19 +77,30 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-   margin-bottom: 400px;
+   margin-bottom: 300px;
     flex-direction: column;
  
   
   }
-  #myCarousel-indicators > li {
-    border-radius: 50%;
-  }
+  .carousel-indicators li  { 
+    position: relative; 
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    /* this is used to override the default style in console cos it affected the radius of the border */
+    height: 30px !important; 
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+}
+ 
    .carousel-indicator  {
     display: inline-block;
-    width: 5px;
-    height: 50px;
-    margin: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
      border-radius: 100%;
     background-color: white;
     transition: background-color 0.3s ease;
@@ -133,7 +144,7 @@ p {
 .book{
   border-radius: 20px;
   width: 350px;
-  height: 100px;
+  height: 60px;
   margin-bottom: 250px;
   font-size: 30px;
   border: none;
