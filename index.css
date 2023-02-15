@@ -140,23 +140,119 @@ body{
     color: transparent;
     background-image: linear-gradient(to right, blue 50%, lightgreen 50%);
      font-weight: bolder;
-  font-size:70px;
+  font-size:2em;
      
   }
+  .carousel-caption{
+    margin-right: 3em !important;
+  }
 .H{
-  font-size:70px;
+  font-size: 2rem;
 }
 p {
-  font-size: 30px;
+  font-size: 	0.5em;
 }
 .book{
   border-radius: 20px;
-  width: 350px;
-  height: 60px;
-  margin-bottom: 250px;
-  font-size: 30px;
+  width: 12em !important;
+  height: 1.5em !important;
+  margin-bottom: 10em;
+  font-size: 1.3em ;
   border: none;
 }
   
-  
-  
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  .logo {
+    height: 15px;
+    width: 25px;
+  }
+  #ig {
+    height: 15px;
+    width: 30px;
+  }
+  #in {
+    height: 15px;
+    width: 15px;
+  }
+  #gen {
+    height: 50px;
+    width: 120px;
+    margin-right: 100px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .book {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 150px;
+    font-size: 20px;
+  }
+}
+
+/* For screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    height: 15px;
+    width: 25px;
+  }
+  #ig {
+    height: 15px;
+    width: 30px;
+  }
+  #in {
+    height: 15px;
+    width: 15px;
+  }
+  #gen {
+    height: 50px;
+    width: 120px;
+    margin-right: 150px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .book {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 200px;
+    font-size: 25px;
+  }
+}
+
+/* For screens larger than 992px */
+@media (min-width: 992px) {
+  .logo {
+    height: 20px;
+    width: 30px;
+  }
+  #ig {
+    height: 20px;
+    width: 40px;
+  }
+  #in {
+    height: 20px;
+    width: 20px;
+  }
+  #gen {
+    height: 60px;
+    width: 150px;
+    margin-right: 250px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .book {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 250px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .carousel-caption p {
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
